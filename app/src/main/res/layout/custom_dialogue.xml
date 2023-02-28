@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginHorizontal="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:padding="10dp"
+            android:src="@drawable/check_tick_svgrepo_com">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Congratulations For showwing up every day"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="How is your journey going"
+            android:textSize="20sp">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnFeedback"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/red"
+            android:text="Send Feedback">
+        </Button>
+
+        <Button
+            android:id="@+id/btnGood"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/green"
+            android:text="Too good">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
